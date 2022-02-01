@@ -1,0 +1,124 @@
+@import "null.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dongle:wght@400;700&family=Montserrat:wght@100&family=Poppins:wght@100&display=swap');
+@font-face{
+	font-family: "Inika";
+	src: url("../fonts/Inika-Bold.woff") format("woff2"), url("../fonts/Inika-Bold.woff2") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face{
+	font-family: "Inika";
+	src: url("../fonts/Inika.woff") format("woff2"), url("../fonts/Inika.woff2") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+    font-size: 18px;
+}   
+.header-title{
+    font-size: 40px;
+    font-family: Inika;
+    font-weight: 700;
+    text-align: center;
+}
+.header-paragraph{
+    text-align: center;
+    font-family: Dongle;
+    font-style: oblique;
+    color: brown;
+    font-weight: 700;
+}
+.main-list{
+    margin-left: 20px;
+    line-height: 2.1;
+}
+li{
+    list-style-type: disc;
+}
+/* знаю такое не учили но я смотрел бесплатный курс и очень сильно хотел точечеки)) */
+.main-rules{
+    font-size: 20px;
+    font-family:Inika;
+    text-transform: uppercase;
+    color: red;
+    text-align: right;
+}
+.voleyball-history{
+    color: chocolate;
+    font-size: 20px;
+    font-family: Inika;
+    font-weight: 700;
+}
+.voleyball-history a{
+    text-decoration: underline;
+    
+}
+.main-title{
+    font-size: 55px;
+    font-weight: 700;
+    font-family: Inika;
+    word-spacing: 10px;
+    color: blue;
+
+}
+.wrapper{
+    text-transform: uppercase;
+}
+.text-one{
+    font-family: Dongle;
+    font-size: 21px;
+    text-decoration: overline;
+
+}
+.text-two{
+    font-family: Dongle;
+    font-size: 21px;
+    text-decoration:line-through;
+    color:rgb(9, 122, 9);
+    text-align: right;
+    
+}
+.text-two{
+    font-family: Dongle;
+    font-size: 21px;
+    text-decoration:    line-through;
+    color:rgb(150, 83, 6);
+    text-align: center;
+}
+.text-three{
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 100;
+    text-shadow:  5px 3px 10px rgb(202, 17, 17), 15px 6px 11px rgb(5, 41, 29);
+    color:rgb(105, 52, 226);
+    text-align: justify;
+}
+#title{
+    font-family: Dongle;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color:rgb(18, 167, 204)
+}
+.text-four{
+    margin-bottom: 10px;
+    color: pink;
+    text-indent: 58px;
+    font-size: 20px;
+    font-family: Montserra;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+.text-five{
+    font-size: 20px;
+    font-family: Dongle;
+    white-space: nowrap;
+    color:rgb(9, 122, 9);
+
+}
+
+
